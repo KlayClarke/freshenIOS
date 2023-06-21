@@ -11,6 +11,8 @@
 		53E1EB7B2A43B1CF00E8D192 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E1EB7A2A43B1CF00E8D192 /* ContentView.swift */; };
 		53E1EB7D2A43B1D200E8D192 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53E1EB7C2A43B1D200E8D192 /* Assets.xcassets */; };
 		53E1EB802A43B1D200E8D192 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53E1EB7F2A43B1D200E8D192 /* Preview Assets.xcassets */; };
+		53E1EB872A43B37800E8D192 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E1EB862A43B37800E8D192 /* MapViewModel.swift */; };
+		53E1EB892A43B3DD00E8D192 /* DataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E1EB882A43B3DD00E8D192 /* DataTypes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		53E1EB7A2A43B1CF00E8D192 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		53E1EB7C2A43B1D200E8D192 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53E1EB7F2A43B1D200E8D192 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		53E1EB862A43B37800E8D192 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		53E1EB882A43B3DD00E8D192 /* DataTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTypes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				53E1EB782A43B1CF00E8D192 /* freshenIOSApp.swift */,
 				53E1EB7A2A43B1CF00E8D192 /* ContentView.swift */,
+				53E1EB862A43B37800E8D192 /* MapViewModel.swift */,
+				53E1EB882A43B3DD00E8D192 /* DataTypes.swift */,
 				53E1EB7C2A43B1D200E8D192 /* Assets.xcassets */,
 				53E1EB7E2A43B1D200E8D192 /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				53E1EB7B2A43B1CF00E8D192 /* ContentView.swift in Sources */,
+				53E1EB892A43B3DD00E8D192 /* DataTypes.swift in Sources */,
 				53E1EB792A43B1CF00E8D192 /* freshenIOSApp.swift in Sources */,
+				53E1EB872A43B37800E8D192 /* MapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

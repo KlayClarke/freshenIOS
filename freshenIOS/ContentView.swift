@@ -8,17 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var mapViewModel: MapViewModel
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            List {
+                ForEach(mapViewModel.salons) { salon in
+                    Text(salon.name)
+                }
+            }
         }
         .padding()
+        let _ = print(mapViewModel.salons)
     }
 }
 
 #Preview {
     ContentView()
+        .environmentObject(MapViewModel())
 }

@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct freshenIOSApp: App {
+    @StateObject var mapViewModel: MapViewModel = MapViewModel()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(mapViewModel)
         }
     }
 }
